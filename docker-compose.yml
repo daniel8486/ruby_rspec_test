@@ -1,0 +1,14 @@
+services:
+  localstack:
+    container_name: mock_services_s3_localstack
+    image: localstack/localstack
+    ports:
+      - "4566:4566"
+      - "4571:4571"
+    environment:
+      - SERVICES=s3
+      - PERSISTENCE=1
+      - DEFAULT_REGION=us-east-1
+      - DATA_DIR=/tmp/localstack_data
+    volumes:
+      - ./localstack_data:/tmp/localstack_data
