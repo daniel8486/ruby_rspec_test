@@ -117,8 +117,4 @@ No arquivo `config/environments/test.rb`
 - workflows/ci.yml 
 
 
-### Agradecimento 
-
-Obrigado pela oportunidade de participar desse desafio. Foi um excelente teste que me permitiu aplicar boas práticas e explorar conceitos importantes de modelagem com Ruby on Rails. 
-
 
